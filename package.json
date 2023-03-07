@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test Http2.spec.ts"
+    "test": "npx playwright test Click.spec.ts"
   },
   "keywords": [],
   "author": "",
