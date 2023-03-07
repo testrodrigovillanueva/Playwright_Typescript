@@ -68,7 +68,7 @@ test.describe('Acciones Click', () => {
   // });
 
 
-  test.only('Drag and Drop', async () => {    
+  test('Drag and Drop', async () => {    
     await f.drag_drop("//div[contains(@id,'draggable')]","(//div[@class='drop-box ui-droppable'][contains(.,'Drop here')])[1]",tg)
     await f.tiempo(2000)
   
