@@ -1,0 +1,19 @@
+{
+  "name": "playwright_typescript_curso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test Http2.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-xlsx": "^0.21.0"
+  }
+}
